@@ -1,0 +1,44 @@
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+.Img {
+      width:40px;
+      height:40px;
+  }
+.info {
+    display: flex;
+    width: 250px;
+    flex-direction: 'row';
+    justify-content: space-between;
+    margin-bottom: 5px
+}
+.infowindow {
+    margin-bottom:20,
+}
+.left {
+    display: flex;
+    flex:1;
+    background-color:green;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .right{
+    flex:2;
+    width:180;
+    background-color: gray;
+
+  }
+.inforow {
+    width:120px;
+    height:80px;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infotext{
+    color:white
+}

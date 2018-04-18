@@ -38,7 +38,7 @@ class MyNavbar extends Component {
         <Nav>
           <Dropdown nav isOpen={this.state.dropdownOpen} toggle={this.toggle}>
             <DropdownToggle nav caret>
-              Dropdown
+              Fleet
             </DropdownToggle>
             <DropdownMenu>
               <DropdownItem header>Header</DropdownItem>
@@ -50,14 +50,14 @@ class MyNavbar extends Component {
           </Dropdown>
           <NavItem>
             <NavLink href="#" active>
-              Link
+              content
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Link</NavLink>
+            <NavLink href="#">maintenance</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Another Link</NavLink>
+            <NavLink href="#">reports</NavLink>
           </NavItem>
         </Nav>
       </Navbar>
