@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 
 import {
   Collapse,
@@ -15,7 +14,8 @@ import {
   DropdownItem,
   Dropdown
 } from "reactstrap";
-import "./App.css";
+import "../App.css";
+import { Link } from 'react-router-dom'
 class MyNavbar extends Component {
   constructor(props) {
     super(props);
@@ -41,8 +41,8 @@ class MyNavbar extends Component {
               Fleet
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem header>Header</DropdownItem>
-              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem ><Link to="/fleetmap">Fleet Map</Link></DropdownItem>
+              <DropdownItem ><Link to="/fleetarea">Fleet Area</Link></DropdownItem>
               <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
               <DropdownItem>Another Action</DropdownItem>
