@@ -33,3 +33,20 @@
     width: 150px;
     height:48px
 }
+
+.buttontext {
+    color:white;
+    font-size: 16px;
+}
+
+.button3Style {
+    padding: 10px;
+    background-color: rgb(240, 52, 83);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    width: 150px;
+    height:48px
+}
