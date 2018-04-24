@@ -1,21 +1,18 @@
 import React, { Component } from "react";
 
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
   Dropdown
 } from "reactstrap";
 import "../App.css";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 class MyNavbar extends Component {
   constructor(props) {
     super(props);
@@ -41,8 +38,12 @@ class MyNavbar extends Component {
               Fleet
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem ><Link to="/fleetmap">Fleet Map</Link></DropdownItem>
-              <DropdownItem ><Link to="/fleetarea">Fleet Area</Link></DropdownItem>
+              <DropdownItem>
+                <Link to="/fleetmap">Fleet Map</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link to="/fleetarea">Fleet Area</Link>
+              </DropdownItem>
               <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
               <DropdownItem>Another Action</DropdownItem>
