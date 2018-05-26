@@ -14,8 +14,9 @@ class App extends Component {
   render() {
     return (
       <div>
+
         <Navbar color="dark" dark />
-        <Route path="/" component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/fleetmap" component={FleetMap} />
         <Route path="/fleetarea" component={FleetArea} />
       </div>

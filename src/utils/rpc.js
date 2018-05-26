@@ -15,7 +15,7 @@ class ResponseError extends Error {
 //const tnurl = 'http://101.231.204.84:8091/sim/getacptn'
 const KEY_TOKEN = "accessToken";
 const KEY_TYPE = "userType";
-const ROOT_URL = "https://randomuser.me/api";
+const ROOT_URL = "https://davidwalsh.name/demo/arsenal.json";
 
 //const ROOT_URL = 'http://192.168.44.137/jmWebTest/jmcus'
 //const ROOT_URL = 'http://210.42.41.162/jmWebTest/jmcus'
@@ -106,12 +106,13 @@ async function request(
     if (options.method === "POST") {
       options.body = formBody;
     }
-    options.credentials = "include";
+    //options.credentials = "include";
 
     options.headers = {
       //'Cookie': cookie ? cookie : null,
       "Content-Type": "application/x-www-form-urlencoded",
-      ...options.headers
+      ...options.headers,
+      mode: "cors"
     };
     // if (token) {
     //   options.headers["token"] = token.token;
@@ -129,11 +130,11 @@ async function request(
     if (response.ok) {
       console.log("response", response);
       //let json = await response.text();
-      //let json = await response.json()
-      //console.log('json',json)
+      let json = await response.json();
+      console.log("json", json);
       let obj = await response.json();
       console.log("obj", obj);
-      if (obj.code === 0) {
+      if (obj) {
         return obj.results;
       } else if (obj.code === 2) {
         //DeviceEventEmitter.emit('invalidToken',obj.message);

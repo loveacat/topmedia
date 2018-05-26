@@ -1,52 +1,75 @@
 .layerStyle {
-    padding: 10px;
-    background-color: rgb(241, 239, 239);
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 200px;
-    height:48px
+  padding: 10px;
+  background-color: rgb(241, 239, 239);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 48px;
 }
 
 .button1Style {
-    padding: 10px;
-    background-color: rgb(52, 240, 137);
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    position: absolute;
-    top: 10px;
-    left: 220px;
-    width: 150px;
-    height:48px
+  padding: 10px;
+  background-color: rgb(52, 240, 137);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+  width: 150px;
+  height: 48px;
 }
 
 .button2Style {
-    padding: 10px;
-    background-color: rgb(52, 240, 137);
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    position: absolute;
-    top: 10px;
-    left: 380px;
-    width: 150px;
-    height:48px
+  padding: 10px;
+  background-color: rgb(52, 240, 137);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 380px;
+  width: 150px;
+  height: 48px;
 }
 
 .buttontext {
-    color:white;
-    font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 .button3Style {
-    padding: 10px;
-    background-color: rgb(240, 52, 83);
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    position: absolute;
-    top: 10px;
-    left: 540px;
-    width: 150px;
-    height:48px
+  padding: 10px;
+  background-color: rgb(240, 52, 83);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 540px;
+  width: 150px;
+  height: 48px;
+}
+
+.button4Style {
+  padding: 10px;
+  background-color: rgb(240, 52, 83);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  width: 150px;
+  height: 48px;
+}
+.button5Style {
+  padding: 10px;
+  background-color: rgb(240, 52, 83);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 840px;
+  width: 150px;
+  height: 48px;
 }

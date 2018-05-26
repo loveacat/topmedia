@@ -3,13 +3,12 @@
   height: 80px;
 }
 .App {
-  margin:0 auto; 
-  width:980px;
-  height:980px;
+  margin: 0 auto;
+  height: 980px;
 }
 .Appicon {
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
 }
 .App-header {
   background-color: #222;

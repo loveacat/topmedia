@@ -2,6 +2,7 @@ import car from "../car.png";
 import "../App.css";
 import { Map, Markers } from "react-amap";
 import MyInfoWindow from "../component/MyInfoWindow";
+import { Container } from "reactstrap";
 import React, { Component } from "react";
 const randomPosition = () => ({
   longitude: 116.402544 + Math.random(),
@@ -50,7 +51,7 @@ class FleetMap extends Component {
   render() {
     console.log("markerts", this.state.markers);
     return (
-      <div className="App">
+      <Container className="App">
         <Map
           center={this.state.position}
           zoom="13"
@@ -68,7 +69,7 @@ class FleetMap extends Component {
             autoMove
           />
         </Map>
-      </div>
+      </Container>
     );
   }
 }

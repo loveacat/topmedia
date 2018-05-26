@@ -8,11 +8,12 @@ export default class Home extends Component {
       username: "init"
     };
   }
-  componentDidMount = () => {
-    let result = get("", { results: 10 });
+  componentDidMount = async () => {
+    let result = await get("", {});
     if (result) {
       console.log("result", result);
     }
+    this.setState({ username: result[0].phone });
   };
 
   render() {
